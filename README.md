@@ -117,4 +117,114 @@ I ensured my file was in a csv format and uploaded it into MYSQL workbench for a
     After running my query,I will say that the company did not choose ship mode based on Order Priority.From the query I ran the result showed that for '3 Critical orders' the company used 3 different ship mode,DElivery Truck,Express Air and Regular Air.
 
     Below is the query i used to run this analysis;
+
+    
+select*
+from `kms data (1)`
+
+1)
+select `Product Category`,sum(Sales) as
+total_sales
+from`kms data (1)`
+group by `Product Category`
+order by total_sales desc
+limit 1;
+
+2)
+select Region, Sum(Sales) as total_sales
+from `kms data (1)`
+group by Region
+order by total_sales Desc
+Limit 3;
+
+select Region, Sum(Sales) as total_sales
+from `kms data (1)`
+group by Region
+order by total_sales Asc
+Limit 3;
+
+
+3)
+select sum(Sales) as total_appliance_sales
+from`kms data (1)`
+where `Product Sub-Category`='Appliances' and
+Province ='Ontorio';
+
+4)
+select `Customer Name`,sum(Sales) as total_sales
+from `kms data (1)`
+group by `Customer Name`
+order by total_sales ASc
+Limit 10;
+
+5) Shipping method with the most shipping cost;
+select `Ship Mode`,sum(`Shipping Cost`) as
+total_shipping_cost
+from `kms data (1)`
+group by `Ship Mode`
+order by total_shipping_cost DEsc
+Limit 1;
+
+6) Most Valuable Customers
+select `Customer Name`,sum(Sales) as total_sales
+from `kms data (1)`
+group by `Customer Name`
+order by total_sales DEsc
+LImit 5;
+
+Products typically purchased by top customers
+SELECT t1.`Customer Name`, t1.`Product Category`, t1.`Product Sub-Category`, 
+SUM(t1.Sales) AS total_sales
+FROM `kms data (1)` t1
+JOIN (
+  SELECT `Customer Name`
+  FROM `kms data (1)`
+  GROUP BY `Customer Name`
+  ORDER BY SUM(Sales) DESC
+  LIMIT 5
+) t2 ON t1.`Customer Name` = t2.`Customer Name`
+GROUP BY t1.`Customer Name`, t1.`Product Category`, t1.`Product Sub-Category`
+ORDER BY t1.`Customer Name`, total_sales DESC;
+
+7) Small buisness owner with the highest sales
+select `Customer Name`,sum(Sales) as total_sales 
+from `kms data (1)`
+where `Customer Segment`= 'small business'
+group by `Customer Name`
+order by total_sales desc
+limit 1;
+
+8)
+select `Customer Name`,count(Distinct `Order ID`)
+as order_count
+from `kms data (1)`
+where `Customer Segment`='Corporate'
+and year(`Order Date`) between 2009 and 2012
+group by `Customer Name`
+order by order_count desc
+limit 1;
+
+9)Most profitable customer
+select `Customer Name`,sum(Profit) as
+total_profit
+from `kms data (1)`
+where `Customer Segment`='Consumer'
+group by `Customer Name`
+order by total_profit Desc
+Limit 1;
+
+10)
+select distinct `Customer Name`,`Customer Segment`
+from`kms data (1)`
+where Profit <0;
+
+11)
+select `Order Priority`,`Ship Mode`,
+sum(`Shipping Cost`) as total_shipping_cost,
+count(*) as order_count
+from `kms data (1)`
+group by `Order Priority`,`Ship Mode`
+order by `Order Priority`
+total_shipping_cost desc;
+
     
