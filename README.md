@@ -66,8 +66,53 @@ Case Scenario I
 
    My query returned NULL which implies that there was no sales of Appliances in Ontario.
    
-5. Advise the management of KMS on what to do to increase the revenue from the bottom 10 customers
+4. Advise the management of KMS on what to do to increase the revenue from the bottom 10 customers
 
+  Recommendations to Increase Revenue:Based on the query results, here are actionable recommendations to increase revenue from the bottom 10 customers:
 
+	a)	Targeted Marketing Campaigns: Analyze the customer segment and product category preferences of these customers.Offerng personalized promotions or discounts on 
+     high-margin products they are likely to purchase.
+	
+ b)	Customer Engagement: Reach out to these customers with loyalty programs or incentives (e.g., discounts for bulk purchases or referrals) to encourage repeat 
+    purchases.
 
-6. KMS incurred the most shipping cost using which shipping method?
+ c)	Cross-Selling Opportunities: Identify products frequently purchased by similar customers in the same segment and recommend these to the bottom 10 customers.
+	
+	d)	Improve Customer Experience: Analyze their order patterns to ensure timely delivery and high-quality service, which may increase their spending.
+	
+ e)	Upselling High-Value Products: Promote higher-priced or complementary products (e.g., furniture or technology items) to these customers based on their segment 
+  and past purchases.
+
+5. KMS incurred the most shipping cost using which shipping method?
+
+   Delivery Truck with total shipping cost of 5,1971.9399
+
+Case Scenario II
+
+6. Who are the most valuable customers, and what products or services do they typically purchase?
+
+ a) Emily Phan --------- Office Suplies,Furniture and Technology
+
+ b) Deborah Brumfield  --------- Office Suplies,Furniture and Technology
+
+ c) Roy Skaria  ----------Office Suplies,Furniture and Technology
+ 
+ d) Sylvia Foulston ------Office Suplies,Furniture and Technology
+ 
+ e) Grant Carrol -----Office Suplies,Furniture and Technology
+
+7. Which small business customer had the highest sales?
+    Dennis Kane with total sales of 74298.54049
+
+8. Which Corporate Customer placed the most number of orders in 2009 – 2012?
+    My query returned NULL impliying no corporate customer placed order in 2009 - 2012.
+   
+9. Which consumer customer was the most profitable one?
+
+    Emily Phan with a total profit of 34005.44
+
+10. Which customer returned items, and what segment do they belong to?
+
+    About 945 customers returned items
+
+11. If the delivery truck is the most economical but the slowest shipping method and Express Air is the fastest but the most expensive one, do you think the company appropriately spent shipping costs based on the Order Priority? Explain your answer
