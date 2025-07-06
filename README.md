@@ -47,17 +47,27 @@ Case Scenario I
 2. What are the Top 3 and Bottom 3 regions in terms of sales?
 
  -The top 3 regions in terms of sales are;
+ 
  a) West with toal sales of 3569219.45549
+
  b) Ontoria with total sales of 3024107.119499
+
  c) Prarie with total sales of 2807846.231499
 
  -The bottom 3 regions in terms of sales are;
+ 
  a) Yukon with total sales of 974102.350
+ 
  b) Northwest Territories with total sales of 793919.4995
+ 
  c) Nunavut with total sales of 115487.693500
  
+3. What were the total sales of appliances in Ontario?
 
-2. What were the total sales of appliances in Ontario?
-3. Advise the management of KMS on what to do to increase the revenue from the bottom
-10 customers
-4. KMS incurred the most shipping cost using which shipping method?
+   My query returned NULL which implies that there was no sales of Appliances in Ontario.
+   
+5. Advise the management of KMS on what to do to increase the revenue from the bottom 10 customers
+
+
+
+6. KMS incurred the most shipping cost using which shipping method?
