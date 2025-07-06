@@ -70,18 +70,15 @@ Case Scenario I
 
   Recommendations to Increase Revenue:Based on the query results, here are actionable recommendations to increase revenue from the bottom 10 customers:
 
-	a)	Targeted Marketing Campaigns: Analyze the customer segment and product category preferences of these customers.Offerng personalized promotions or discounts on 
-     high-margin products they are likely to purchase.
+	a)	Targeted Marketing Campaigns: Analyze the customer segment and product category preferences of these customers.Offerng personalized promotions or discounts on high-margin products they are likely to purchase.
 	
- b)	Customer Engagement: Reach out to these customers with loyalty programs or incentives (e.g., discounts for bulk purchases or referrals) to encourage repeat 
-    purchases.
+ b)	Customer Engagement: Reach out to these customers with loyalty programs or incentives (e.g., discounts for bulk purchases or referrals) to encourage repeat  purchases.
 
  c)	Cross-Selling Opportunities: Identify products frequently purchased by similar customers in the same segment and recommend these to the bottom 10 customers.
 	
-	d)	Improve Customer Experience: Analyze their order patterns to ensure timely delivery and high-quality service, which may increase their spending.
+d)	Improve Customer Experience: Analyze their order patterns to ensure timely delivery and high-quality service, which may increase their spending.
 	
- e)	Upselling High-Value Products: Promote higher-priced or complementary products (e.g., furniture or technology items) to these customers based on their segment 
-  and past purchases.
+ e)	Upselling High-Value Products: Promote higher-priced or complementary products (e.g., furniture or technology items) to these customers based on their segment  and past purchases.
 
 5. KMS incurred the most shipping cost using which shipping method?
 
@@ -116,3 +113,5 @@ Case Scenario II
     About 945 customers returned items
 
 11. If the delivery truck is the most economical but the slowest shipping method and Express Air is the fastest but the most expensive one, do you think the company appropriately spent shipping costs based on the Order Priority? Explain your answer
+
+    After running my query,I will say that the company did not choose ship mode based on Order Priority.From the query I ran the result showed that for '3 Critical orders' the company used 3 different ship mode,DElivery Truck,Express Air and Regular Air. 
