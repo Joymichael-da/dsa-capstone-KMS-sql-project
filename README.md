@@ -14,7 +14,22 @@ findings.My goal is;
 - MYSQL for analysing data.
 - Github for submission.
 
+### Methodology and Tools Needed
+- Microsoft Excel for Data cleaning,calculations and Visualization.
+- Pivot table for summarizing and analysing data.
+- Github for submission.
 
+### Data Source and Description
+The primary source of data used here is Kultra Mega Stores Inventory.csv and this is an open source data provided by our instructors.Contained in the dataset is ;
+- Product details: Row ID,Order Id, Order Date,Order Priority,Order quantity,Product category,Product name,Product sub-category,Product base,Sales,Unit price,discount,Ship mode,Profit,Ship date and Shipping cost.
+- Customer details: Customer name,Province,Region and Customer segment.
+
+### Analysis and Results
+I started my analysis by;
+
+Browsing through the data to understand what I have and identify what is needed.
+
+I put my dataset in a table format to help excel recognise my dataset as a structured table.
 
 Case Scenario I
 1. Which product category had the highest sales?
